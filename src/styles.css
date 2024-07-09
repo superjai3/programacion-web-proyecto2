@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+
+:root {
+  --color-primario: #336699;
+  --color-secundario: #6699cc;
+  --color-fondo: #f0f0f0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: var(--color-fondo);
+}
+
+h1 {
+  color: var(--color-primario);
+}
+
+p {
+  color: var(--color-secundario);
+}
+
+.button {
+  background-color: var(--color-primario);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
